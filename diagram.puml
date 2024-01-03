@@ -1,0 +1,36 @@
+@startuml
+!$no = "<:1f6ab:>"
+' !$no = "<color:crimson>no"
+' !$yes = "<color:palegreen>yes"
+!$ok = "<:1f44c:>"
+!$stop = "<:1f4f5:>"
+!$greenOk = "#PaleGreen:Ok"
+!$iphone = "<:1f4f1:>"
+start
+repeat :使っていい日;
+if (携帯の電源を入れる On) then
+  rectangle 駄目な場合 {
+    fork
+      :20時以降?;
+    fork again
+      :許可された日?;
+    fork again
+      :勉強してない？;
+    fork again
+      :お客がいる際に使用;
+    fork again
+      :使用時間外に使用;
+    end fork
+    ' #Crimsom:$stop 禁止;
+    ->$no;
+    :禁止 $stop;
+    stop
+  }
+endif
+backward:次の日まで待つ <:1f557:>;
+rectangle 良い場合 {
+  $greenOk $iphone;
+}
+repeat while (終わったら消す)
+stop
+@enduml
