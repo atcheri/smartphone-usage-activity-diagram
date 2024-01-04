@@ -7,30 +7,44 @@
 !$greenOk = "#PaleGreen:Ok"
 !$iphone = "<:1f4f1:>"
 start
-repeat :使っていい日;
+repeat :携帯電話は箱にしまっておく;
+:使っていい日になったら;
 if (携帯の電源を入れる On) then
   rectangle 駄目な場合 {
     fork
-      :20時以降?;
+      :20時以降;
     fork again
-      :許可された日?;
+      :許可された日じゃない;
     fork again
-      :勉強してない？;
+      :30分以上使った;
     fork again
-      :お客がいる際に使用;
+      :勉強してない;
+    fork again
+      :お客がいる時に使用;
+    fork again
+      :外に持って行った;
     fork again
       :使用時間外に使用;
     end fork
     ' #Crimsom:$stop 禁止;
     ->$no;
     :禁止 $stop;
+    :規則違反の場合一週間使用不可;
     stop
   }
 endif
 backward:次の日まで待つ <:1f557:>;
 rectangle 良い場合 {
+  fork
+    :勉強に使うのなら45分まで;
+  fork again
+    :ゲームは週一回;
+  fork again
+    :平日二回 週末一回;
+  fork again
+  end fork
   $greenOk $iphone;
 }
-repeat while (終わったら消す)
+repeat while (使い終わったら消す)
 stop
 @enduml
