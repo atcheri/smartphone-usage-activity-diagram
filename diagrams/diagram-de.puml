@@ -1,0 +1,50 @@
+@startuml
+!$no = "<:1f6ab:>"
+' !$no = "<color:crimson>no"
+' !$yes = "<color:palegreen>yes"
+!$ok = "<:1f44c:>"
+!$stop = "<:1f4f5:>"
+!$greenOk = "#PaleGreen:Ok"
+!$iphone = "<:1f4f1:>"
+start
+repeat :Bewahren Sie Ihr Mobiltelefon in einer Schachtel auf;
+:Wann es ein guter Tag ist, um es zu benutzen;
+if (Schalten Sie Ihr Mobiltelefon ein. On) then
+  rectangle "Im Falle einer fehlenden" {
+    fork
+      :Nach 20 Uhr;
+    fork again
+      :Kein genehmigter Tag;
+    fork again
+      :Mehr als eine halbe Stunde verbracht;
+    fork again
+      :Nicht studiert;
+    fork again
+      :Benutzt, wenn Gäste anwesend waren;
+    fork again
+      :Wurde draußen benutzt;
+    fork again
+      :Außerhalb der Benutzungszeiten benutzt;
+    end fork
+    ' #Crimsom:$stop 禁止;
+    ->$no;
+    :Verbot $stop;
+    :Im Falle eines Regelverstoßes für eine Woche nicht erlaubt;
+    stop
+  }
+endif
+backward:Warten Sie bis zum nächsten Tag <:1f557:>;
+rectangle "Wenn es gut ist" {
+  fork
+    :bis zu 45 Minuten, wenn sie zum Lernen genutzt werden;
+  fork again
+    :Spiele einmal pro Woche;
+  fork again
+    :Zweimal an Wochentagen Einmal am Wochenende;
+  fork again
+  end fork
+  $greenOk $iphone;
+}
+repeat while (Schalten Sie es aus, wenn Sie es nicht mehr benutzen.)
+stop
+@enduml
