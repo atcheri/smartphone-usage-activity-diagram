@@ -44,4 +44,6 @@
 - Wenn das Smartphone außerhalb der erlaubten Reichweite benutzt wird -> Verbot.
 - Wenn Sie das Smartphone einer anderen Person außerhalb des erlaubten Bereichs benutzen -> Verbot.
 
+<image src="./diagram-de.svg">
+
 #### FR
