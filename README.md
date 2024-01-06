@@ -1,6 +1,6 @@
 ## 携帯電話使用規則
 
-<image src="./diagram.svg">
+<image src="./diagram-jp.svg">
 
 #### JP
 
@@ -25,5 +25,23 @@
 - When using someone else's outside of the allowed range -> Ban.
 
 #### DE
+- Wenn es nicht benutzt wird, bleibt das Handy in einer "Handy-Box".
+- Keine Nutzung nach 20h.
+- Maximal 30 Minuten pro Nutzung. Kann auf 45 Minuten verlängert werden, wenn es sich um Bildungszwecke handelt.
+- Das Handy darf nur zu Hause benutzt werden.
+- Spielen nur einmal pro Woche / Kein Online-Spiel.
+- Nutzung:
+  - Zweimal während der Woche.
+  - Einmal während des Wochenendes.
+- Keine Apps können ohne Genehmigung installiert werden.
+- Keine Foto-Uploads / kein Snapchat / kein Whatsapp / kein Meta (facebook).
+- Muss regelmäßig Sport treiben.
+- Muss regelmäßig lernen.
+- Wenn das Smartphone während des Lernens benutzt (z.b: Spotify) wird -> Verbot.
+- Keine Nutzung wenn Gäste/Freundinnen zu Besuch sind.
+- Keine Smartphone-zentrierten Unterhaltungen.
+
+- Wenn das Smartphone außerhalb der erlaubten Reichweite benutzt wird -> Verbot.
+- Wenn Sie das Smartphone einer anderen Person außerhalb des erlaubten Bereichs benutzen -> Verbot.
 
 #### FR
