@@ -7,9 +7,9 @@
 #### EN
 - When not in use, the cellephone remains in a "cellphone-box".
 - No usage after 20h.
-- Max of 30 mins per usage. Can be extended to 45 mins if for educational purposes.
+- Max of 1 hour per usage.
 - The phone can only be used at home.
-- Gaming only once a week / No online game.
+- Gaming only once a week Friday / No online game.
 - Usage:
   - Twice during the week-days.
   - Once during the week-end.
@@ -27,9 +27,9 @@
 #### DE
 - Wenn es nicht benutzt wird, bleibt das Handy in einer "Handy-Box".
 - Keine Nutzung nach 20h.
-- Maximal 30 Minuten pro Nutzung. Kann auf 45 Minuten verlängert werden, wenn es sich um Bildungszwecke handelt.
+- Maximal 1 Stunde pro Nutzung.
 - Das Handy darf nur zu Hause benutzt werden.
-- Spielen nur einmal pro Woche / Kein Online-Spiel.
+- Spielen nur einmal pro Woche am Freitag / Kein Online-Spiel.
 - Nutzung:
   - Zweimal während der Woche.
   - Einmal während des Wochenendes.

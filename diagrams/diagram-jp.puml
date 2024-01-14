@@ -16,7 +16,7 @@ if (携帯の電源を入れる On) then
     fork again
       :許可された日じゃない;
     fork again
-      :30分以上使った;
+      :1時間使った;
     fork again
       :勉強してない;
     fork again
@@ -36,8 +36,6 @@ endif
 backward:次の日まで待つ <:1f557:>;
 rectangle 良い場合 {
   fork
-    :勉強に使うのなら45分まで;
-  fork again
     :ゲームは週一回;
   fork again
     :平日二回 週末一回;

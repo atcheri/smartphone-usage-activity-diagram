@@ -7,16 +7,16 @@
 !$greenOk = "#PaleGreen:Ok"
 !$iphone = "<:1f4f1:>"
 start
-repeat :Bewahren Sie Ihr Mobiltelefon in einer Schachtel auf;
+repeat :Bewahren Sie Ihr Handy in einer Schachtel auf;
 :Wann es ein guter Tag ist, um es zu benutzen;
-if (Schalten Sie Ihr Mobiltelefon ein. On) then
+if (Schalten Sie Ihr Handy ein. On) then
   rectangle "Im Falle einer fehlenden" {
     fork
       :Nach 20 Uhr;
     fork again
       :Kein genehmigter Tag;
     fork again
-      :Mehr als eine halbe Stunde verbracht;
+      :Mehr als eine Stunde verbracht;
     fork again
       :Nicht studiert;
     fork again
@@ -36,8 +36,6 @@ endif
 backward:Warten Sie bis zum nächsten Tag <:1f557:>;
 rectangle "Wenn es gut ist" {
   fork
-    :bis zu 45 Minuten, wenn sie zum Lernen genutzt werden;
-  fork again
     :Spiele einmal pro Woche;
   fork again
     :Zweimal an Wochentagen Einmal am Wochenende;
